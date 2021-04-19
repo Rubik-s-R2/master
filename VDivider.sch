@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4977,13 +4977,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="138.43" y="171.6786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.43" y="166.878" size="1.778" layer="96"/>
 </instance>
-<instance part="JP2" gate="G$1" x="73.66" y="170.18" smashed="yes">
-<attribute name="NAME" x="67.31" y="173.355" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.31" y="165.1" size="1.778" layer="96"/>
+<instance part="JP2" gate="G$1" x="88.9" y="170.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="95.25" y="167.005" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="95.25" y="175.26" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP5" gate="G$1" x="167.64" y="170.18" smashed="yes">
-<attribute name="NAME" x="161.29" y="173.355" size="1.778" layer="95"/>
-<attribute name="VALUE" x="161.29" y="165.1" size="1.778" layer="96"/>
+<instance part="JP5" gate="G$1" x="160.02" y="170.18" smashed="yes">
+<attribute name="NAME" x="151.13" y="175.895" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.67" y="165.1" size="1.778" layer="96"/>
 </instance>
 <instance part="JP6" gate="A" x="127" y="167.64" smashed="yes">
 <attribute name="NAME" x="120.65" y="178.435" size="1.778" layer="95"/>
@@ -4996,7 +4996,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="170.18" x2="71.12" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -5033,7 +5033,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="170.18" x2="147.32" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="170.18" x2="147.32" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
