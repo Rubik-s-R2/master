@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9112,14 +9112,14 @@ Source: AVX .. aphvc.pdf</description>
 </devicesets>
 </library>
 <library name="40xx" urn="urn:adsk.eagle:library:80">
-<description>&lt;b&gt;CMOS Logic Devices, 4000 Series&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola &lt;i&gt;CMOS LOGIC DATA&lt;/i&gt;; book, 02/88, DL131 REV 1
-&lt;li&gt;http://www.elexp.com
-&lt;li&gt;http://www.intersil.com
-&lt;li&gt;http://www.ls3c.com.tw/product/1/COMOS.html
-&lt;/ul&gt;
+<description>&lt;b&gt;CMOS Logic Devices, 4000 Series&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola &lt;i&gt;CMOS LOGIC DATA&lt;/i&gt;; book, 02/88, DL131 REV 1
+&lt;li&gt;http://www.elexp.com
+&lt;li&gt;http://www.intersil.com
+&lt;li&gt;http://www.ls3c.com.tw/product/1/COMOS.html
+&lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="DIL16" urn="urn:adsk.eagle:footprint:917/1" library_version="7">
@@ -10625,12 +10625,13 @@ Based on the following sources:
 </net>
 <net name="M1_1A" class="0">
 <segment>
-<pinref part="MOTEUR1" gate="A" pin="4"/>
-<wire x1="358.14" y1="71.12" x2="304.8" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="71.12" x2="304.8" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="DRIVER1-RIGHT" gate="-4" pin="1"/>
-<wire x1="304.8" y1="73.66" x2="285.75" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="73.66" x2="285.75" y2="73.66" width="0.1524" layer="91"/>
 <label x="340.36" y="71.12" size="1.778" layer="95"/>
+<wire x1="317.5" y1="73.66" x2="317.5" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="MOTEUR1" gate="A" pin="4"/>
+<wire x1="317.5" y1="68.58" x2="358.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="68.58" x2="358.14" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M2_1B" class="0">
@@ -10645,12 +10646,13 @@ Based on the following sources:
 </net>
 <net name="M2_1A" class="0">
 <segment>
-<pinref part="MOTEUR2" gate="A" pin="4"/>
-<wire x1="358.14" y1="40.64" x2="317.5" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="40.64" x2="317.5" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="DRIVER2-RIGHT" gate="-4" pin="1"/>
 <wire x1="317.5" y1="43.18" x2="285.75" y2="43.18" width="0.1524" layer="91"/>
 <label x="340.36" y="40.64" size="1.778" layer="95"/>
+<wire x1="317.5" y1="43.18" x2="317.5" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="MOTEUR2" gate="A" pin="4"/>
+<wire x1="317.5" y1="38.1" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="38.1" x2="358.14" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M3_1B" class="0">
@@ -10665,12 +10667,13 @@ Based on the following sources:
 </net>
 <net name="M3_1A" class="0">
 <segment>
-<pinref part="MOTEUR3" gate="A" pin="4"/>
-<wire x1="358.14" y1="7.62" x2="314.96" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="7.62" x2="314.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="5.08" x2="314.96" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="DRIVER3-RIGHT" gate="-4" pin="1"/>
 <wire x1="314.96" y1="10.16" x2="285.75" y2="10.16" width="0.1524" layer="91"/>
 <label x="340.36" y="7.62" size="1.778" layer="95"/>
+<pinref part="MOTEUR3" gate="A" pin="4"/>
+<wire x1="314.96" y1="5.08" x2="358.14" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="5.08" x2="358.14" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M4_1B" class="0">
@@ -10685,12 +10688,13 @@ Based on the following sources:
 </net>
 <net name="M4_1A" class="0">
 <segment>
-<pinref part="MOTEUR4" gate="A" pin="4"/>
-<wire x1="358.14" y1="-27.94" x2="317.5" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="-27.94" x2="317.5" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="DRIVER4-RIGHT" gate="-4" pin="1"/>
 <wire x1="317.5" y1="-25.4" x2="285.75" y2="-25.4" width="0.1524" layer="91"/>
 <label x="340.36" y="-27.94" size="1.778" layer="95"/>
+<wire x1="317.5" y1="-25.4" x2="317.5" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="MOTEUR4" gate="A" pin="4"/>
+<wire x1="317.5" y1="-30.48" x2="358.14" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="-30.48" x2="358.14" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M5_1B" class="0">
@@ -10705,12 +10709,13 @@ Based on the following sources:
 </net>
 <net name="M5_1A" class="0">
 <segment>
-<pinref part="MOTEUR5" gate="A" pin="4"/>
-<wire x1="358.14" y1="-60.96" x2="320.04" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="-60.96" x2="320.04" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="DRIVER5-RIGHT" gate="-4" pin="1"/>
 <wire x1="320.04" y1="-58.42" x2="285.75" y2="-58.42" width="0.1524" layer="91"/>
 <label x="340.36" y="-60.96" size="1.778" layer="95"/>
+<wire x1="320.04" y1="-58.42" x2="320.04" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="-63.5" x2="358.14" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="MOTEUR5" gate="A" pin="4"/>
+<wire x1="358.14" y1="-63.5" x2="358.14" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M6_1B" class="0">
@@ -10725,12 +10730,13 @@ Based on the following sources:
 </net>
 <net name="M6_1A" class="0">
 <segment>
-<pinref part="MOTEUR6" gate="A" pin="4"/>
-<wire x1="358.14" y1="-91.44" x2="317.5" y2="-91.44" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="-91.44" x2="317.5" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="DRIVER6-RIGHT" gate="-4" pin="1"/>
 <wire x1="317.5" y1="-88.9" x2="285.75" y2="-88.9" width="0.1524" layer="91"/>
 <label x="340.36" y="-91.44" size="1.778" layer="95"/>
+<wire x1="317.5" y1="-88.9" x2="317.5" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="MOTEUR6" gate="A" pin="4"/>
+<wire x1="317.5" y1="-93.98" x2="358.14" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="-93.98" x2="358.14" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
