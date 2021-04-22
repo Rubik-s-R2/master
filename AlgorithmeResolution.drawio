@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T09:05:37.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="stfe2RPaz2Tqfw3sDc8h" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T09:17:34.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="6ZDBz8W2KoJl1j3xkAPH" version="14.6.3" type="github">
   <diagram id="E4pu_rwrLomB39f6dgDt" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-41" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="109" y="458" width="610" height="700" as="geometry" />
+          <mxGeometry x="109" y="454" width="610" height="700" as="geometry" />
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-10" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="CXSvPSvRkw78HtXeZLOZ-41">
           <mxGeometry y="11.475409836065573" width="610" height="700" as="geometry" />
@@ -77,33 +77,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-1" value="Acquisition d&#39;une image pour chaque caméra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="244" y="9" width="190" height="60" as="geometry" />
+          <mxGeometry x="244" y="5" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CXSvPSvRkw78HtXeZLOZ-4" target="CXSvPSvRkw78HtXeZLOZ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-4" value="Traitement des images, filtre des couleurs et ROI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="279" y="139" width="120" height="60" as="geometry" />
+          <mxGeometry x="279" y="135" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CXSvPSvRkw78HtXeZLOZ-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="414" y="349" as="targetPoint" />
+            <mxPoint x="414" y="345" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-6" value="Conversion en tableau 2D des couleurs&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="279" y="239" width="120" height="60" as="geometry" />
+          <mxGeometry x="279" y="235" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CXSvPSvRkw78HtXeZLOZ-8" target="CXSvPSvRkw78HtXeZLOZ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-8" value="Init.vi" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="354" y="349" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="345" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CXSvPSvRkw78HtXeZLOZ-38" target="CXSvPSvRkw78HtXeZLOZ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CXSvPSvRkw78HtXeZLOZ-38" value="Initialisation des moteurs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="424" y="239" width="120" height="60" as="geometry" />
+          <mxGeometry x="424" y="235" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
