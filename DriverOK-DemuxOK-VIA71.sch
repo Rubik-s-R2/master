@@ -9169,8 +9169,6 @@ Based on the following sources:
 <part name="GND_MYRIO" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
-<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
-<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100u"/>
 <part name="DEMUX_CHANNEL_A" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4051" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
 <part name="DEMUX_CHANNEL_B" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4051" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
@@ -9571,14 +9569,6 @@ Based on the following sources:
 <instance part="H2" gate="G$1" x="495.3" y="127" smashed="yes">
 <attribute name="NAME" x="497.332" y="127.5842" size="1.778" layer="95"/>
 <attribute name="VALUE" x="497.332" y="124.5362" size="1.778" layer="96"/>
-</instance>
-<instance part="H3" gate="G$1" x="119.38" y="-93.98" smashed="yes">
-<attribute name="NAME" x="121.412" y="-93.3958" size="1.778" layer="95"/>
-<attribute name="VALUE" x="121.412" y="-96.4438" size="1.778" layer="96"/>
-</instance>
-<instance part="H4" gate="G$1" x="495.3" y="-99.06" smashed="yes">
-<attribute name="NAME" x="497.332" y="-98.4758" size="1.778" layer="95"/>
-<attribute name="VALUE" x="497.332" y="-101.5238" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="181.356" y="112.776" smashed="yes">
 <attribute name="NAME" x="182.88" y="113.157" size="1.778" layer="95"/>
